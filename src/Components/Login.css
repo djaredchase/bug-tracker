@@ -1,0 +1,42 @@
+.basic-form {
+    background-color: lightgray;
+    border: 1px solid #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 5rem;
+}
+
+.form-link {
+    color: #404040;
+}
+
+.form-group-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic-input {
+    border-radius: 0%;
+    border: 0.5px solid #404040;
+    margin-bottom: 0.25rem;
+}
+
+.basic-input:focus {
+    box-shadow: none;
+    border: 1.5px solid #404040;
+}
+
+.my-btn {
+    border-radius: 0%;
+    border-color: #404040;
+    background-color: #404040;
+}
+
+.my-btn:hover {
+    border-color: #404040;
+    background-color: #808080;
+}
+

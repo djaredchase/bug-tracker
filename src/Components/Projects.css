@@ -1,0 +1,25 @@
+.projects-page {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    width: 40%;
+}
+
+.my-table thead tr {
+    border-bottom: 1px solid #404040;
+}
+
+.my-table tbody tr {
+    border: 1px solid #404040;
+}
