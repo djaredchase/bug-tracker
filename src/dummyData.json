@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "name": "Project 1",
+            "description": "dummy project #1",
+            "manager": "D. Jared Chase"
+        },
+        {
+            "name": "Project 2",
+            "description": "dummy project #2",
+            "manager": "D. Jared Chase"
+        },
+        {
+            "name": "Project 3",
+            "description": "dummy project #3",
+            "manager": "D. Jared Chase"
+        }
+    ],
+    "issues": [
+        {
+            "id": "1",
+            "title": "Dummy issue 1",
+            "summary": "issue summary",
+            "assignee": "D. Jared Chase",
+            "reporter": "Dalton Chase",
+            "status": "New"
+        },
+        {
+            "id": "2",
+            "title": "Dummy issue 2",
+            "summary": "issue summary",
+            "assignee": "D. Jared Chase",
+            "reporter": "Dalton Chase",
+            "status": "New"
+        },
+        {
+            "id": "3",
+            "title": "Dummy issue 3",
+            "summary": "issue summary",
+            "assignee": "D. Jared Chase",
+            "reporter": "Dalton Chase",
+            "status": "In Progress"
+        },
+        {
+            "id": "4",
+            "title": "Dummy issue 4",
+            "summary": "issue summary",
+            "assignee": "D. Jared Chase",
+            "reporter": "Dalton Chase",
+            "status": "In Progress"
+        }
+    ]
+}

@@ -1,25 +1,23 @@
-.projects-page {
+.page-container {
     min-height: 100vh;
     width: 100%;
-    padding: 2em;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.projects-header {
+.page-header {
     display: flex;
     justify-content: space-between;
 }
 
+.page-toolbar {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 .search-input {
-    width: 40%;
-}
-
-.my-table thead tr {
-    border-bottom: 1px solid #404040;
-}
-
-.my-table tbody tr {
-    border: 1px solid #404040;
+    max-width: 35%;
 }

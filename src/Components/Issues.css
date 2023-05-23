@@ -1,0 +1,21 @@
+.issues-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.issues-display {
+    /* background-color: aqua; */
+    flex-grow: 4;
+}
+
+.issues-side-panel {
+    background-color: aquamarine;
+}
+
+.dbl-btn-wrapper {
+    padding: 0.25rem;
+    background-color: #808080;
+    display: flex;
+    flex-direction: row;
+}

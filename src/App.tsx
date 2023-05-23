@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 import { Login } from './Components/Login';
 import { SignUp } from './Components/SignUp';
 import { Projects } from './Components/Projects';
+import { Issues } from './Components/Issues';
 
 export const App = () => {
 
@@ -17,8 +18,8 @@ export const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/issues' element={<h1>Issues Page</h1>} />
-          <Route path='/:id' element={<h1>Issue Details Page</h1>} />
+          <Route path='/issues' element={<Issues />} />
+          <Route path='/issues/:id' element={<h1>Issue Details Page</h1>} />
           <Route path='/dashboard' element={<h1>Dashboard Page</h1>} />
           <Route path='/admin' element={<h1>Admin Page</h1>} />
           <Route path='*' element={<Navigate to='/projects' />} />
